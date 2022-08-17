@@ -1,0 +1,83 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #dddddd;
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    color: #fff;
+}
+#bluebox, #redbox{
+    width: 38vw;
+}
+#redbox {
+    background-color: #E02207;
+    border-radius: 20px;
+    padding: 10px;
+}
+#vs {
+    margin: 0;
+    font-size: 42px;
+    color: black;
+}
+#bluebox {
+    background-color: #74a4f2;
+    border-radius: 20px;
+    padding: 10px;
+}
+#jogador1 {
+    font-size: 25px;
+    padding-right: 78%;
+}
+
+#computador-pontos{
+    display: inline;
+    justify-content: start;
+
+}
+#pc{
+    font-size: 25px;
+    margin-top: 1vh;
+    padding-left: 50.8%;
+}
+#jogador, #computador{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    padding: 0 8px;
+}
+#computador-pontos, #jogador-pontos {
+    font-size: 42px;
+}
+#jogador li a, #computador li a {
+    opacity: 0.2;
+}
+#jogador a:hover,#computador li a.selecionado, #jogador li a.selecionado{
+    opacity: 1;
+}
+ul li img {
+    max-width: 8vw;
+}
+#mensagem {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(99, 107, 104);
+    border-radius: 70px;
+    margin: 20px 0;
+    padding: 20px;
+}
